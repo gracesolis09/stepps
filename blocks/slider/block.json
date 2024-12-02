@@ -1,0 +1,32 @@
+{
+    "name": "custom-theme-slider",
+    "title": "Custom Theme Slider",
+    "description": "Slider block",
+    "style": "block-slider",
+    "script": "block-slider",
+    "category": "custom-theme-blocks",
+    "icon": "cover-image",
+    "apiVersion": 2,
+    "keywords": ["slider"],
+    "acf": {
+        "mode": "edit",
+	    "renderTemplate": "slider.php"
+    },
+    "styles": [],
+    "supports": {
+        "color": {
+            "background": true,
+            "gradients": true
+        }
+    },
+    "attributes": {
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image_slider": true
+            }
+        }
+    }
+}

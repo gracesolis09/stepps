@@ -1,0 +1,32 @@
+{
+    "name": "custom_theme-two-columns",
+    "title": "Custom Theme - Two Columns",
+    "description": "two-columns block",
+    "style": "block-two-columns",
+    "script": "block-two-columns",
+    "category": "two-columns-blocks",
+    "icon": "cover-image",
+    "apiVersion": 2,
+    "keywords": ["columns"],
+    "acf": {
+        "mode": "preview",
+	    "renderTemplate": "two-columns.php"
+    },
+    "styles": [],
+    "supports": {
+        "color": {
+            "background": true,
+            "gradients": true
+        }
+    },
+    "attributes": {
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image_two_columns": true
+            }
+        }
+    }
+}
